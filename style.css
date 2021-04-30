@@ -1,0 +1,18 @@
+#slider {
+	position: relative;
+	z-index: -1;
+	width: 800px;
+	height: 550px;
+	margin: 45px auto;
+	box-shadow: 0 0 5px black;
+	background: #EFEFEF center/cover;
+}
+#tumbs {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.active {
+	border: 2px solid yellow !important;
+	opacity: .5;
+}
